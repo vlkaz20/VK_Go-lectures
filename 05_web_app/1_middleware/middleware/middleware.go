@@ -6,6 +6,8 @@ import (
 	"time"
 )
 
+
+// test
 func mainPage(w http.ResponseWriter, r *http.Request) {
 	session, err := r.Cookie("session_id")
 	// учебный пример! это не проверка авторизации!
